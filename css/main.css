@@ -209,9 +209,10 @@ img {
 .hero {
   padding-top: 118px;
   padding-bottom: 198px;
-  background-image: url("../images/fon-mobile.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/fon-mobile.jpg");
   background-repeat: no-repeat;
   background-position: center top;
+  background-size: 480px 400px;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
@@ -228,78 +229,49 @@ img {
   color: #ffffff;
 }
 
-/*TEAM*/
-.our-team {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 320px), screen and (min-resolution: 192dpi) and (min-width: 320px), screen and (min-resolution: 2dppx) and (min-width: 320px) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/fon-mobile@2x.jpg");
+  }
+}
+
+.icon-container {
   display: flex;
-  justify-content: space-between;
-}
-
-.specialty {
-  text-align: center;
-}
-
-.team {
-  background: #f5f4fa;
-  padding-top: 50px;
-  padding-bottom: 94px;
-}
-
-.name-workers {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.187;
-  letter-spacing: 0.03em;
-  color: #212121;
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 10px;
-}
-
-.workers {
-  margin-left: 30px;
-  width: 270px;
-  height: 428px;
-  background: #ffffff;
-  border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.social-container {
-  margin-top: 16px;
-  padding-right: 32px;
-  padding-left: 32px;
-  padding-bottom: 30px;
-}
-
-.social-list {
-  display: flex;
-  justify-content: space-around;
-}
-
-.social-icon {
-  fill: currentColor;
-}
-
-.main-icon-link:not(:last-child) {
-  padding-right: 10px;
-}
-
-.icon-link {
-  display: flex;
-  align-items: center;
   justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  color: #afb1b8;
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  align-items: center;
+  width: 450px;
+  height: 120px;
+  background: #F5F4FA;
+  border-radius: 4px;
+  margin-bottom: 30px;
 }
 
-.icon-link:focus, .icon-link:hover {
-  background-color: var(--accent-color);
-  color: #ffffff;
+.undertitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.143;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 10px;
 }
 
+.description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #757575;
+  min-height: 50px;
+  margin-bottom: 30px;
+}
+
+/*TEAM*/
 /*END TEAM*/
 .footer {
   padding-top: 60px;
@@ -445,8 +417,7 @@ img {
   margin-left: 10px;
 }
 
-.footer,
-.hero {
+.footer {
   background-color: #2f303a;
 }
 
