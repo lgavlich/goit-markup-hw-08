@@ -71,8 +71,39 @@
  margin-bottom: 30px;
 }
 
+ .title-clients{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.178;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-top: 60px;
+}
 
-//.hero {
+ .regular-clients-list{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+ }
+
+ .clients-icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 210px;
+  height: 90px;
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  fill:  #AFB1B8;;
+}
+ 
+ 
+
+//.hero  {
 //.background-color: #C4C4C4;
 //.background-image: linear-gradient(
 //.rgba(47, 48, 58, 0.4),

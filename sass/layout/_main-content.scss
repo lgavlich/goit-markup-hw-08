@@ -14,15 +14,66 @@
   padding-top: 60px;
   padding-bottom: 30px;
  }
+
  .workers {
   display: block;
   background: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  padding-bottom: 30px;
+   }
+   .workers:not(:last-child){
+     margin-bottom: 30px;
+   }
+
+.name-workers {
+ font-family: Roboto;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.185;
+ text-align: center;
+ letter-spacing: 0.03em;
+ color: #212121;
+ margin-top: 30px;
+}
+ .specialty {
+ font-family: Roboto;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 1.185;
+ text-align: center;
+ letter-spacing: 0.03em;
+ color: #757575;
+ margin-top: 10px;
+ }
+  
+  .social-list {
+  display: flex;
+  justify-content: center;
+  } 
+  
+  .social-icon {
+  fill: #AFB1B8;
  }
 
- 
+  .social-container {
+    padding-right: 122px;
+    padding-left: 122px;
+    padding-bottom: 24px;
+    margin-top: 16px;   
+ }
+   .main-icon-link:not(:last-child) {
+    padding-right: 10px;
+   }
+
+    .icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    }
 
 
 
