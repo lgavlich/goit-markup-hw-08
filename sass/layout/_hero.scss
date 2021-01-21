@@ -101,7 +101,10 @@
   fill:  #AFB1B8;;
 }
  
- 
+ .clients-list{
+   width: calc((100% - 4 * 15px) / 2);
+   margin: 15px;
+ }
 
 //.hero  {
 //.background-color: #C4C4C4;
