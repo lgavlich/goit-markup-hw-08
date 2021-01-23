@@ -30,13 +30,14 @@
   display: block;
   margin: -15px;
   margin-bottom: 60px;
-
-  &.foto {
-    background: #ffffff;
-    border: 1px solid #eeeeee;
-    box-sizing: border-box;
-  }
 }
+
+.container-works-foto {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
 .container-foto {
   position: relative;
   overflow: hidden;
@@ -79,6 +80,17 @@
   padding-left: 24px;
   padding-bottom: 20px;
   padding-right: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-button {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  .section-btn {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /*OUR WORKS*/

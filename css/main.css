@@ -865,6 +865,12 @@ img {
   margin-bottom: 60px;
 }
 
+.container-works-foto {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
 .container-foto {
   position: relative;
   overflow: hidden;
@@ -872,7 +878,7 @@ img {
 
 .overlay {
   background-color: rgba(33, 150, 243, 0.9);
-  color: #FFFFFF;
+  color: #ffffff;
   position: absolute;
   width: 100%;
   height: 100%;
