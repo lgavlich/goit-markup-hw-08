@@ -91,6 +91,14 @@
     display: flex;
     justify-content: center;
   }
+  .container-works {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-works-foto {
+    width: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
+  }
 }
 
 /*OUR WORKS*/

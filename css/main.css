@@ -918,5 +918,20 @@ img {
   padding-right: 24px;
 }
 
+@media screen and (min-width: 768px) {
+  .section-button {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  .section-btn {
+    display: flex;
+    justify-content: center;
+  }
+  .container-works {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
 /*OUR WORKS*/
 /*# sourceMappingURL=main.css.map */
