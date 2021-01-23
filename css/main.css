@@ -149,7 +149,7 @@ img {
   align-items: center;
   width: 450px;
   height: 120px;
-  background: #F5F4FA;
+  background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
 }
@@ -203,15 +203,46 @@ img {
   align-items: center;
   width: 210px;
   height: 90px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
 .clients-list {
   width: calc((100% - 4 * 15px) / 2);
   margin: 15px;
+}
+
+@media not all, screen and (min-resolution: 192dpi) and (min-width: 768x), screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/fon-tab@2x.jpg");
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 118px;
+    padding-bottom: 198px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/fon-tab.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 768px 400px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .main-title-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+  }
+  .title-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
+  }
 }
 
 .modal-btn {
