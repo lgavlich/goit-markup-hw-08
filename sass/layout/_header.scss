@@ -16,13 +16,12 @@
   border: none;
   background-color: transparent;
 }
-.menu-button .icon-close {
-  display: none;
-}
-.menu-button .is-open.icon-close {
-  display: block;
-}
-
+ .menu-button.is-open .icon-close{
+   display:block; 
+ }
+ .menu-button.icon-close {
+   display: none;
+ }
 [data-menu] {
   display: none;
 }

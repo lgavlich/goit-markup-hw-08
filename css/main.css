@@ -111,7 +111,7 @@ img {
 
 .header {
   position: relative;
-  border: 1px solid #ECECEC;
+  border: 1px solid #ececec;
 }
 
 .navigation {
@@ -129,7 +129,11 @@ img {
   background-color: transparent;
 }
 
-.menu-button .icon-close {
+.menu-button.is-open .icon-close {
+  display: block;
+}
+
+.menu-button.icon-close {
   display: none;
 }
 
