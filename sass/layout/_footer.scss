@@ -104,7 +104,9 @@
   background: #2f303a;
   padding-left: 16px;
 }
+@media screen and (max-width: 1199px) and (min-width: 320px){
 
+}
 .footer-sub-btn {
   min-width: 200px;
   min-height: 50px;
@@ -133,6 +135,7 @@
   display: flex;
   justify-content: center;
 }
+
 @media screen and (min-width: 768px) {
   .footer-list {
     display: flex;

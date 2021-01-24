@@ -1,28 +1,39 @@
 .menu-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 25px;
   display: inline-flex;
   margin: 0;
   padding: 0;
   border: none;
   background-color: transparent;
-}
-.menu-button .is-open .icon-close {
-  display: block;
-}
-.menu-button .icon-close {
-  display: none;
+  @media screen and(min-width: 768px) {
+    display: none;
+  }
 }
 
 .menu-button.is-open .icon-menu {
   display: none;
 }
+.menu-button .icon-close{
+  display: none;
+}
+.menu-button.is-open .icon-close {
+  display: block;
+}
 
- 
 [data-menu] {
 display: none;
 }
 [data-menu].is-open {
   display: block;
 }
+.menu-button:focus,
+.menu-button:hover {
+  fill: var(--accent-color);
+}
+
 .header {
   position: relative;
   border: 1px solid #ececec;
