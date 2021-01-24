@@ -643,21 +643,17 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .footer {
-    max-height: 272px;
-  }
-  .footer-list-container {
+  .footer-list {
     display: flex;
     align-items: baseline;
-    justify-content: space-around;
   }
   .footer-address {
     padding-top: 20px;
+    width: 231px;
   }
   .footer-form-container {
     display: flex;
     align-items: baseline;
-    justify-content: space-around;
   }
   .footer-contact-container {
     margin-right: 70px;

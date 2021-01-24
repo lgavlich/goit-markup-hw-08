@@ -144,12 +144,13 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .footer-list-container {
+  .footer-list-info {
     display: flex;
     align-items: baseline;
   }
   .footer-address {
     padding-top: 20px;
+    width: 231px;
   }
 
   .footer-form-container {
