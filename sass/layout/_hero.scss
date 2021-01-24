@@ -281,23 +281,7 @@ width: 170px;
 height: 90px;
  }
 }
- .menu-button {
-   display: inline-flex;
-    margin: 0;
-    padding: 0;
-    border: none;
-    background-color: transparent;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
- }
- .icon-close{
-   display: none;
- }
- .menu-button.is-open .icon-close {
-   display: block;
- }
- .menu-button.is-open .icon-menu {
-   display: none;
- }
+ 
 
 
 //.hero  {

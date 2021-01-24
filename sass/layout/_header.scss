@@ -1,94 +1,104 @@
-.header{
+.header {
   position: relative;
-  border: 1px solid #ECECEC;
+  border: 1px solid #ececec;
 }
-.header-menu{
-  position: absolute;
-  width: 100%;
-  top: 100%;
-  left: 0;
-  transform: translate(0, 0) scale(1);
-  background: #FFFFFF;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
-  z-index: 5;
-}
- .navigation{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   min-height: 60px;
- }
 
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 60px;
+}
+.menu-button {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+.menu-button .icon-close {
+  display: none;
+}
+.menu-button .is-open.icon-close {
+  display: block;
+}
+
+[data-menu] {
+  display: none;
+}
+[data-menu].is-open {
+  display: block;
+}
 
 //.icon-address {
-  //margin-right: 10px;
- // fill: currentColor;
+//margin-right: 10px;
+// fill: currentColor;
 //}
 
 //.header {
-  //display: flex;
-  //align-items: center;
-  //border: 1px solid #ececec;
+//display: flex;
+//align-items: center;
+//border: 1px solid #ececec;
 
- // &-contact-mail,
- // &-contacts {
- //   display: flex;
-  //  align-items: center;
-   // justify-content: center;
-   // transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  //}
+// &-contact-mail,
+// &-contacts {
+//   display: flex;
+//  align-items: center;
+// justify-content: center;
+// transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//}
 
-  //&-contact {
-  //  display: flex;
-  //  align-items: center;
-  //}
+//&-contact {
+//  display: flex;
+//  align-items: center;
+//}
 
-  //&-contact-link:focus,
-  //&-contact-link:hover {
-   // color: var(--accent-color);
-    //transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  //}
-  //&-contacts:hover,
-  //&-contacts:focus {
-   // color: var(--accent-color);
-    //transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  //}
-  //&-contact-mail:hover,
-  //&-contact-mail:focus {
-  //  color: var(--accent-color);
-  //}
-  //&-contacts,
-  //&-contact-mail {
-   // color: #757575;
-  //}
+//&-contact-link:focus,
+//&-contact-link:hover {
+// color: var(--accent-color);
+//transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//}
+//&-contacts:hover,
+//&-contacts:focus {
+// color: var(--accent-color);
+//transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+//}
+//&-contact-mail:hover,
+//&-contact-mail:focus {
+//  color: var(--accent-color);
+//}
+//&-contacts,
+//&-contact-mail {
+// color: #757575;
+//}
 //}
 
 //.navigation {
- // display: flex;
- // align-items: center;
+// display: flex;
+// align-items: center;
 
- // &-list-link {
- //   font-weight: 500;
- //   font-size: 14px;
- //   line-height: 1.142;
- //   letter-spacing: 0.02em;
- //   color: #212121;
- //   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
- // }
+// &-list-link {
+//   font-weight: 500;
+//   font-size: 14px;
+//   line-height: 1.142;
+//   letter-spacing: 0.02em;
+//   color: #212121;
+//   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+// }
 
-  //&-list {
-  //  display: flex;
-  //  align-items: center;
-  //}
+//&-list {
+//  display: flex;
+//  align-items: center;
+//}
 
-  //&-list-item {
-  //  padding-top: 32px;
-  //  padding-bottom: 32px;
-  //}
-  //&-list-link:focus,
-  //&-list-link:hover {
-  //  color: var(--accent-color);
-  //}
+//&-list-item {
+//  padding-top: 32px;
+//  padding-bottom: 32px;
+//}
+//&-list-link:focus,
+//&-list-link:hover {
+//  color: var(--accent-color);
+//}
 //}
 
 //.navigation-list-item:not(:last-child) {
@@ -103,16 +113,16 @@
 //  color: var(--accent-color);
 //  position: relative;
 
-  //&:after {
-  //  content: "";
-  //  display: block;
-  //  position: absolute;
-  //  width: 100%;
-  //  height: 4px;
-  //  top: 44px;
-  //  background: var(--accent-color);
-  //  border-radius: 2px;
-  //}
+//&:after {
+//  content: "";
+//  display: block;
+//  position: absolute;
+//  width: 100%;
+//  height: 4px;
+//  top: 44px;
+//  background: var(--accent-color);
+//  border-radius: 2px;
+//}
 //}
 
 //.address {
