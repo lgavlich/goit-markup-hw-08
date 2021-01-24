@@ -12,13 +12,21 @@
 </head>
 <body>
     <!--HEADER-->
-    <!--header class="header">
+    <header class="header">
         <div class="container">      
         <nav class="navigation">
         <a class="logo" href=""lang="en"><span class="web">Web</span>Studio</a>
+        <button type="button" class="menu-button is-open" aria-expanded="false"
+        aria-controls="header-menu" data-menu-button>
+            <svg width="25" height="25" aria-label="переключатель мобильного меню">
+                <use class="icon-close" href="./images/sprite.svg#icon-close-black-18dp-2-1"></use>
+                <use class="icon-menu" href="./images/sprite.svg#menu"></use>
+            </svg>
+        </button>
+        <div class="header-menu is-open" id="header-menu" data-menu>
         <ul class="navigation-list">
             <li class="navigation-list-item">
-                <a class="navigation-list-link nav-list-link" href="Студия">Студия</a>
+                <a class="navigation-list-link nav-list-link" href="Студия">Студия</a>                
             </li>
             <li class="navigation-list-item">
                 <a class="navigation-list-link" href="portfolio.html">Портфолио</a>
@@ -46,6 +54,7 @@
                 </a>
            </li>  
         </ul>
+        </div>
         </address>
         </nav>
         </div>
@@ -103,9 +112,9 @@
                 </ul>
             </div>
         </section> 
-        <section>
+        <section class="section-images-list">
             <!--Чем мы занимаемся-->
-            <!--div class="container">
+            <div class="container">
              <h2 class="section-undertitle">Чем мы занимаемся</h2>
             <ul class="images-list">
                 <li class="images">

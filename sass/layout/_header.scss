@@ -2,6 +2,23 @@
   position: relative;
   border: 1px solid #ECECEC;
 }
+.header-menu{
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  transform: translate(0, 0) scale(1);
+  background: #FFFFFF;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
+  z-index: 5;
+}
+ .navigation{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   min-height: 60px;
+ }
+
 
 //.icon-address {
   //margin-right: 10px;
