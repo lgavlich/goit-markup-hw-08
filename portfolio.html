@@ -12,10 +12,18 @@
 
     </head>    
     <body>
-     <!--header class="header">   
+     <header class="header">   
        <div class="container"> 
         <nav class="navigation">
          <a class="logo" href="#" lang="en"><span class="web">Web</span>Studio</a>
+        <!--кнопка-->
+        <button type="button" class="menu-button " aria-expanded="false" aria-controls="header-menu" data-menu-button>
+          <svg width="25" height="25" aria-label="переключатель мобильного меню">
+            <use class="icon-close" href="./images/sprite.svg#icon-close-black-18dp-2-1"></use>
+            <use class="icon-menu" href="./images/sprite.svg#menu"></use>
+          </svg>
+        </button>
+        <div class="header-menu" data-menu id="header-menu">
           <ul class="navigation-list">
             <li class="navigation-list-item">
               <a class="navigation-list-link" href="index.html">Студия</a>
@@ -299,5 +307,6 @@
       
       </div>
     </footer>
+    <script src="./js/menu.js"></script>
             </body>
             
