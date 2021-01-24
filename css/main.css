@@ -121,6 +121,22 @@ img {
   width: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
+  left: 0;
+  top: 100%;
+  text-align: center;
+}
+
+.navigation-list {
+  display: block;
+  margin-bottom: 60px;
+}
+
+.navigation-list-link {
+  font-family: Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.167;
+  color: #212121;
 }
 
 .navigation {
