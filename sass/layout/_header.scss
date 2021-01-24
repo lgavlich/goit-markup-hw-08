@@ -7,10 +7,7 @@
   margin: 0;
   padding: 0;
   border: none;
-  background-color: transparent;
-  @media screen and(min-width: 768px) {
-    display: none;
-  }
+  background-color: transparent;  
 }
 
 .menu-button.is-open .icon-menu {
@@ -122,7 +119,11 @@ display: none;
  .header-contact-link:not(:last-child) {
    padding-bottom: 16px;
  }
-
+ @media screen and (min-width: 768px){
+   .menu-button {
+    display: none;
+ }
+}
 //.icon-address {
 //margin-right: 10px;
 // fill: currentColor;
