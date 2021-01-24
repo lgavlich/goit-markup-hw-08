@@ -510,9 +510,11 @@ img {
   color: #ffffff;
 }
 
-.footer-address {
-  padding-top: 20px;
-  padding-bottom: 60px;
+@media screen and (max-width: 1199px) and (min-width: 320px) {
+  .footer-address {
+    padding-top: 20px;
+    padding-bottom: 60px;
+  }
 }
 
 .footer-address-nav:not(:last-child) {
@@ -648,6 +650,9 @@ img {
     display: flex;
     align-items: baseline;
     justify-content: space-around;
+  }
+  .footer-address {
+    padding-top: 20px;
   }
   .footer-form-container {
     display: flex;
