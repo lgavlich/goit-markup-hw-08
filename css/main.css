@@ -243,6 +243,48 @@ img {
   .menu-button {
     display: none;
   }
+  .header-menu {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-menu {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    box-shadow: none;
+  }
+  .navigation-list {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0;
+    justify-content: space-between;
+  }
+  .nav-list-link :after {
+    position: absolute;
+  }
+  .navigation-list-item:not(:last-child) {
+    margin-right: 50px;
+    padding-bottom: 0;
+  }
+  .logo {
+    font-family: Raleway,sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.167;
+    letter-spacing: 0.03em;
+    margin-right: 88px;
+  }
+  .navigation-list-link {
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+  }
 }
 
 @media not all, screen and (min-resolution: 192dpi) and (min-width: 320px), screen and (min-resolution: 2dppx) and (min-width: 320px) {
