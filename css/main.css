@@ -121,12 +121,6 @@ img {
   background-color: transparent;
 }
 
-@media screen and (min-width: 767px) {
-  .menu-button {
-    display: none;
-  }
-}
-
 .menu-button.is-open .icon-menu {
   display: none;
 }
@@ -245,7 +239,7 @@ img {
   padding-bottom: 16px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .menu-button {
     display: none;
   }
@@ -292,7 +286,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 450px;
+  width: 450px;
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
