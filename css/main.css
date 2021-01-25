@@ -243,6 +243,9 @@ img {
   .menu-button {
     display: none;
   }
+}
+
+@media screen and (max-width: 767px) {
   .header-menu {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -284,6 +287,13 @@ img {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.142;
+  }
+  .header-contact-mail, .header-contacts {
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.167;
+    color: #757575;
   }
 }
 
