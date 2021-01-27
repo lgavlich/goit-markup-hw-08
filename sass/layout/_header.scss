@@ -68,15 +68,12 @@
   text-align: center;
   z-index: 2;
 }
-@media screen and (min-width: 480px) and (max-width: 767px){
-.navigation-list-link {
+ .navigation-list-link {
   font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.192;     
 }
-}
-
 
 .navigation-list {
   display: block;
@@ -95,9 +92,9 @@
   }
 }
 .nav-list-link {
-  color: var(--accent-color);
-  position: relative;
-  display: inline-block;
+    display: inline-block;
+    position: relative;    
+    color: var(--accent-color);
 
   &:after {
     content: "";
@@ -109,6 +106,8 @@
     border-radius: 2px;
   }
 }
+
+
 .navigation-list-item:not(:last-child) {
   padding-bottom: 40px;
 }

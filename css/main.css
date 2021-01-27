@@ -182,13 +182,11 @@ img {
   z-index: 2;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  .navigation-list-link {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.192;
-  }
+.navigation-list-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
 }
 
 .navigation-list {
@@ -208,9 +206,9 @@ img {
 }
 
 .nav-list-link {
-  color: var(--accent-color);
-  position: relative;
   display: inline-block;
+  position: relative;
+  color: var(--accent-color);
 }
 
 .nav-list-link:after {
