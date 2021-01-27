@@ -68,11 +68,13 @@
   text-align: center;
   z-index: 2;
 }
+@media screen and (min-width: 480px) and (max-width){
 .navigation-list-link{
   font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.192;     
+}
 }
 
 
@@ -147,13 +149,7 @@
     justify-content: space-between;
   }
 }
-.navigation-list-link {
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 1.167;
-  color: #212121;
-}
+
 .nav-list-link:after {
   position: absolute;
 }
@@ -171,11 +167,16 @@
   margin-right: 88px;
 }
 .navigation-list-link {
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.142;
-}
+    padding-top: 32px;
+    display: block;
+   
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    
+  }
 .header-contact-mail,
 .header-contacts {
   font-family: Roboto, sans-serif;
@@ -221,13 +222,7 @@
   .header-contacts {
     margin-left: 30px;
   }
-  .navigation-list-link {
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 1.167;
-  color: #212121;
-}
+  
 }
 
 //.icon-address {

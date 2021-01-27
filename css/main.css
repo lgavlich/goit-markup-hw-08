@@ -182,11 +182,13 @@ img {
   z-index: 2;
 }
 
-.navigation-list-link {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
+@media screen and (min-width: 480px) and (max-width) {
+  .navigation-list-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+  }
 }
 
 .navigation-list {
@@ -262,14 +264,6 @@ img {
   }
 }
 
-.navigation-list-link {
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 1.167;
-  color: #212121;
-}
-
 .nav-list-link:after {
   position: absolute;
 }
@@ -289,7 +283,10 @@ img {
 }
 
 .navigation-list-link {
+  padding-top: 32px;
+  display: block;
   font-family: Roboto, sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
@@ -343,13 +340,6 @@ img {
   }
   .header-contacts {
     margin-left: 30px;
-  }
-  .navigation-list-link {
-    font-family: Roboto, sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 1.167;
-    color: #212121;
   }
 }
 
