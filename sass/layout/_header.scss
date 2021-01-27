@@ -68,8 +68,8 @@
   text-align: center;
   z-index: 2;
 }
-@media screen and (min-width: 480px) and (max-width){
-.navigation-list-link{
+@media screen and (min-width: 480px) and (max-width: 767px){
+.navigation-list-link {
   font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -169,14 +169,15 @@
 .navigation-list-link {
     padding-top: 32px;
     display: block;
-   
+    padding-bottom: 32px;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.142;
-    
-  }
+    color: #212121;
+    }
+
 .header-contact-mail,
 .header-contacts {
   font-family: Roboto, sans-serif;
