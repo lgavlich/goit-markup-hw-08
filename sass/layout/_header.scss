@@ -54,7 +54,7 @@
     color: #757575;
   }
 }
-
+@media screen and (max-width: 767px){
 .header-menu {
   background: #ffffff;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08),
@@ -67,6 +67,7 @@
   top: 100%;
   text-align: center;
   z-index: 2;
+}
 }
 
 .navigation-list {
@@ -121,6 +122,7 @@
 .header-contact-link:not(:last-child) {
   padding-bottom: 16px;
 }
+
 
 @media screen and (min-width: 767px) {
   .menu-button {
