@@ -167,12 +167,11 @@
   }
   }
 
-.nav-list-link:after {
-  position: absolute;
-}
+@media screen and (min-width: 480 px) {
 .navigation-list-item:not(:last-child) {
   margin-right: 50px;
   padding-bottom: 0;
+}
 }
 
 .logo {
