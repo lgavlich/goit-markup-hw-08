@@ -450,6 +450,24 @@ img {
   box-sizing: border-box;
   border-radius: 4px;
   fill: #afb1b8;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-icon-link:hover, .clients-icon-link:focus {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.icon-link {
+  border-radius: 50%;
+  color: #afb1b8;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-link:hover,
+.icon-link:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
 }
 
 @media screen and (max-width: 767px) {
