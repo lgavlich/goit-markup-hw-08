@@ -48,6 +48,7 @@
   &-contact-mail:hover,
   &-contact-mail:focus {
     color: var(--accent-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   &-contacts,
   &-contact-mail {
