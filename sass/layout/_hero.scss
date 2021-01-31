@@ -110,19 +110,19 @@
 }
 .icon-link {
   border-radius: 50%;
-  color: #afb1b8;
+  //color: #afb1b8;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-link:hover,
 .icon-link:focus {
-  background-color: var(--accent-color);
   color: #ffffff;
+  background-color: var(--accent-color);
 }
 
 @media screen and (max-width: 767px) {
   .clients-list {
-   width: calc((100% - 4 * 15px) / 2);
+    width: calc((100% - 4 * 15px) / 2);
     margin: 15px auto;
   }
   .regular-clients-list {
@@ -130,7 +130,7 @@
     flex-wrap: wrap;
     padding-bottom: 60px;
   }
- }
+}
 @media not all,
   screen and (min-resolution: 192dpi) and (min-width: 768x),
   screen and (min-resolution: 2dppx) and (min-width: 768px) {

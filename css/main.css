@@ -213,7 +213,6 @@ img {
   bottom: 0;
   background-color: var(--accent-color);
   border-radius: 2px;
-  color: var(--accent-color);
 }
 
 .header-contact-mail,
@@ -461,8 +460,8 @@ img {
 
 .icon-link:hover,
 .icon-link:focus {
-  background-color: var(--accent-color);
   color: #ffffff;
+  background-color: var(--accent-color);
 }
 
 @media screen and (max-width: 767px) {
