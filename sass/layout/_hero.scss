@@ -122,7 +122,7 @@
 
 @media screen and (max-width: 767px) {
   .clients-list {
-    //width: calc((100% - 4 * 15px) / 2);
+   width: calc((100% - 4 * 15px) / 2);
     margin: 15px auto;
   }
   .regular-clients-list {
