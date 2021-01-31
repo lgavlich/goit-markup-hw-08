@@ -67,12 +67,6 @@
   text-align: center;
   z-index: 2;
 }
-// .navigation-list-link {
-// font-family: "Raleway", sans-serif;
-//   font-weight: 700;
-//  font-size: 26px;
-// line-height: 1.192;
-//}
 
 .navigation-list {
   display: block;
@@ -141,14 +135,6 @@
   .navigation-list-item:not(:last-child) {
     margin-bottom: 50px;
   }
-  .address {
-    //   margin-left: auto;
-    font-family: Roboto, sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.143;
-    color: #757575;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -186,6 +172,14 @@
     line-height: 1.142;
     color: #212121;
   }
+  .header-contact-mail,
+  .header-contacts {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.167;
+    color: #757575;
+  }
 }
 
 .logo {
@@ -195,15 +189,6 @@
   line-height: 1.167;
   letter-spacing: 0.03em;
   margin-right: 88px;
-}
-
-.header-contact-mail,
-.header-contacts {
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.167;
-  color: #757575;
 }
 .header-contact {
   padding-top: 21px;
