@@ -96,7 +96,7 @@
   bottom: 0;
   background-color: var(--accent-color);
   border-radius: 2px;
-  }
+}
 
 .header-contact-mail,
 .header-contacts {
@@ -119,6 +119,12 @@
   .header-menu {
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+  .nav-list-link {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 8px;
+    color: var(--accent-color);
   }
   .navigation-list-link {
     font-family: Roboto;
