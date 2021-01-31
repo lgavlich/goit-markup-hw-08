@@ -475,9 +475,6 @@ img {
     flex-wrap: wrap;
     padding-bottom: 60px;
   }
-  .workers :not(:last-child) {
-    margin-bottom: 30px;
-  }
 }
 
 @media not all, screen and (min-resolution: 192dpi) and (min-width: 768x), screen and (min-resolution: 2dppx) and (min-width: 768px) {
@@ -661,10 +658,8 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-@media screen and (max-width: 767px) and (min-width: 480px) {
-  .workers:not(:last-child) {
-    margin-bottom: 30px;
-  }
+.workers:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 .name-workers {
