@@ -1173,10 +1173,6 @@ img {
   margin-top: 15px;
 }
 
-.container-works-foto:not(:last-child) {
-  margin-bottom: 30px;
-}
-
 .container-works {
   display: block;
   margin: -15px;
@@ -1244,6 +1240,12 @@ img {
   padding-left: 24px;
   padding-bottom: 20px;
   padding-right: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .container-works-foto:not(:last-child) {
+    margin-bottom: 15px;
+  }
 }
 
 @media screen and (min-width: 768px) {
