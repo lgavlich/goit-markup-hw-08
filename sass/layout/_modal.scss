@@ -10,6 +10,8 @@
   transition-duration: 250ms;
   transition-timing-function: var(--timing);
 
+  z-index: 20;
+
   &.is-hidden .modal{
  transform: translate(-50%,-50%) scale(0);
   }
