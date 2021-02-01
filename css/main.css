@@ -163,12 +163,6 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-contact-link:focus,
-.header-contact-link:hover {
-  color: var(--accent-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .icon-address {
   fill: #757575;
 }
@@ -201,7 +195,9 @@ img {
 }
 
 .nav-list-link {
+  display: inline-block;
   position: relative;
+  padding-bottom: 8px;
   color: var(--accent-color);
 }
 
@@ -213,6 +209,16 @@ img {
   bottom: 0;
   background-color: var(--accent-color);
   border-radius: 2px;
+}
+
+.navigation-list-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.167;
+  color: #212121;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contact-mail,
@@ -239,23 +245,15 @@ img {
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  .nav-list-link {
-    display: inline-block;
-    position: relative;
-    padding-bottom: 8px;
-    color: var(--accent-color);
-  }
-  .navigation-list-link {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 1.167;
-    color: #212121;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
   .navigation-list-item:not(:last-child) {
     margin-bottom: 50px;
+  }
+  .header-contact-mail, .header-contacts {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    color: #757575;
   }
 }
 
