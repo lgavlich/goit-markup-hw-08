@@ -64,7 +64,6 @@
   color: #212121;
   margin-bottom: 10px;
 }
-
 .description {
   font-family: Roboto;
   font-style: normal;
@@ -86,6 +85,10 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+}
+.title-clients {
+  padding-top: 60px;
+  padding-bottom: 30px;
 }
 
 .clients-icon-link {
@@ -158,8 +161,8 @@
   .main-title-list {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 60px;
-    padding-top: 60px;
+    //padding-bottom: 60px;
+    //padding-top: 60px;
   }
 
   .title-list {
@@ -281,10 +284,7 @@
     padding-top: 94px;
     padding-bottom: 50px;
   }
-  .section-undertitle {
-    padding-bottom: 30px;
-    padding-top: 60px;
-  }
+
   .title-clients {
     font-family: Roboto, sans-serif;
     font-weight: 700;

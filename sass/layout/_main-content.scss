@@ -1,8 +1,9 @@
 .team {
   background: #f5f4fa;
+  padding-bottom: 60px;
   }
 
-.section-undertitle {
+.secftion-undertitle {
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -10,9 +11,7 @@
   line-height: 1.178;
   text-align: center;
   letter-spacing: 0.03em;
-  //padding-top: 60px;
- // padding-bottom: 30px;
-}
+  }
 
 .workers {
   display: block;
@@ -96,11 +95,7 @@
     width: calc((100% - 4 * 15px) / 2);
     margin: 15px;
   }
-  .team{
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-}
+ }
 
 @media screen and (min-width: 1200px) {
   .our-team {
@@ -112,11 +107,7 @@
   .workers:not(:last-child) {
     margin-right: 30px;
   }
-  .team{
-    padding-top: 94px;    
-    padding-bottom: 0;
   }
-}
 
 /*TEAM*/
 //..our-team {

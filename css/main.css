@@ -437,6 +437,11 @@ img {
   color: #212121;
 }
 
+.title-clients {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
 .clients-icon-link {
   display: flex;
   justify-content: center;
@@ -495,8 +500,6 @@ img {
   .main-title-list {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 60px;
-    padding-top: 60px;
   }
   .title-list {
     display: flex;
@@ -606,10 +609,6 @@ img {
     padding-top: 94px;
     padding-bottom: 50px;
   }
-  .section-undertitle {
-    padding-bottom: 30px;
-    padding-top: 60px;
-  }
   .title-clients {
     font-family: Roboto, sans-serif;
     font-weight: 700;
@@ -654,9 +653,10 @@ img {
 
 .team {
   background: #f5f4fa;
+  padding-bottom: 60px;
 }
 
-.section-undertitle {
+.secftion-undertitle {
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -749,10 +749,6 @@ img {
     width: calc((100% - 4 * 15px) / 2);
     margin: 15px;
   }
-  .team {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -764,10 +760,6 @@ img {
   }
   .workers:not(:last-child) {
     margin-right: 30px;
-  }
-  .team {
-    padding-top: 94px;
-    padding-bottom: 0;
   }
 }
 
