@@ -3,7 +3,9 @@
   padding-bottom: 60px;
   }
 
-.secftion-undertitle {
+  .section-undertitle {
+  padding-top: 60px;
+  padding-bottom: 30px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -11,6 +13,7 @@
   line-height: 1.178;
   text-align: center;
   letter-spacing: 0.03em;
+  color: #212121;
   }
 
 .workers {
@@ -84,6 +87,7 @@
     letter-spacing: 0.03em;
     color: #212121;
     padding-bottom: 30px;
+    padding-top: 60px;
   }
 
   .our-team {
@@ -106,6 +110,13 @@
   }
   .workers:not(:last-child) {
     margin-right: 30px;
+  }
+  .team{
+    padding-bottom: 0;
+  }
+  .section-undertitle {
+    padding-top: 94px;
+    padding-bottom: 50px;
   }
   }
 

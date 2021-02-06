@@ -95,7 +95,7 @@
 }
 
 .footer-user-form {
-  min-width: 450px;
+  width: 450px;
   min-height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
@@ -186,7 +186,11 @@
   .footer-icon-btn {
     margin-left: 10px;
   }
-}
+  .footer-user-form{
+    width: 358px;
+    
+  }
+   }
 
 //.footer {
 // padding-top: 60px;
