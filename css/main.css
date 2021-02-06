@@ -386,10 +386,6 @@ img {
   color: #ffffff;
 }
 
-.main-title-list {
-  padding: 60px 0;
-}
-
 .icon-container {
   display: flex;
   justify-content: center;
@@ -435,7 +431,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-top: 60px;
 }
 
 .clients-icon-link {
@@ -497,6 +492,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 60px;
+    padding-top: 60px;
   }
   .title-list {
     display: flex;
@@ -506,6 +502,7 @@ img {
   }
   .title-clients {
     padding-bottom: 30px;
+    padding-top: 60px;
   }
 }
 
@@ -580,9 +577,13 @@ img {
     position: relative;
   }
   .applications {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
     line-height: 1.143;
     text-align: center;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     bottom: 0;
     background: rgba(47, 48, 58, 0.8);
     color: #ffffff;
@@ -598,7 +599,10 @@ img {
     line-height: 1.167;
     text-align: center;
     color: #212121;
+  }
+  .section-undertitle {
     padding-bottom: 50px;
+    padding-top: 94px;
   }
   .title-clients {
     font-family: Roboto, sans-serif;
@@ -608,15 +612,21 @@ img {
     text-align: center;
     color: #212121;
   }
+  .title-clients {
+    padding-bottom: 50px;
+    padding-top: 94px;
+  }
   .regular-clients-list {
     display: flex;
     justify-content: space-between;
     padding-bottom: 94px;
-    margin-top: 20px;
   }
   .clients-icon-link {
     width: 170px;
     height: 90px;
+  }
+  .main-title-list {
+    padding-top: 94px;
   }
 }
 
@@ -638,7 +648,6 @@ img {
 
 .team {
   background: #f5f4fa;
-  padding-bottom: 60px;
 }
 
 .section-undertitle {
@@ -649,8 +658,6 @@ img {
   line-height: 1.178;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-top: 60px;
-  padding-bottom: 30px;
 }
 
 .workers {
@@ -725,6 +732,7 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    padding-bottom: 30px;
   }
   .our-team {
     display: flex;
@@ -734,6 +742,10 @@ img {
   .workers {
     width: calc((100% - 4 * 15px) / 2);
     margin: 15px;
+  }
+  .team {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 
@@ -746,6 +758,10 @@ img {
   }
   .workers:not(:last-child) {
     margin-right: 30px;
+  }
+  .team {
+    padding-top: 94px;
+    padding-bottom: 0;
   }
 }
 
@@ -961,6 +977,7 @@ img {
   transition-property: opacity, visibility;
   transition-duration: 250ms;
   transition-timing-function: var(--timing);
+  z-index: 20;
 }
 
 .backdrop.is-hidden .modal {

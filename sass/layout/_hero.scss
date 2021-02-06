@@ -38,9 +38,6 @@
   margin-bottom: 30px;
   color: #ffffff;
 }
-.main-title-list {
-  padding: 60px 0;
-}
 
 .icon-container {
   display: flex;
@@ -86,8 +83,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-top: 60px;
-}
+ }
 
 .clients-icon-link {
   display: flex;
@@ -160,6 +156,7 @@
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 60px;
+    padding-top: 60px;
   }
 
   .title-list {
@@ -171,6 +168,7 @@
 
   .title-clients {
     padding-bottom: 30px;
+    padding-top: 60px;
   }
 }
 
@@ -254,9 +252,13 @@
     position: relative;
   }
   .applications {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
     line-height: 1.143;
     text-align: center;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     bottom: 0;
     background: rgba(47, 48, 58, 0.8);
     color: #ffffff;
@@ -265,15 +267,19 @@
     padding: 27px 0;
     position: absolute;
   }
+  
   .section-undertitle {
     font-weight: 700;
     font-weight: bold;
     font-size: 36px;
     line-height: 1.167;
     text-align: center;
-    color: #212121;
-    padding-bottom: 50px;
+    color: #212121;   
   }
+  .section-undertitle{
+   padding-bottom: 50px;
+   padding-top: 94px;
+}
   .title-clients {
     font-family: Roboto, sans-serif;
     font-weight: 700;
@@ -282,16 +288,23 @@
     text-align: center;
     color: #212121;
   }
+  .title-clients{
+    padding-bottom: 50px;
+    padding-top: 94px;
+  }
   .regular-clients-list {
     display: flex;
     justify-content: space-between;
     padding-bottom: 94px;
-    margin-top: 20px;
+    //margin-top: 20px;
   }
   .clients-icon-link {
     width: 170px;
     height: 90px;
   }
+  .main-title-list {
+   padding-top: 94px;
+}
 }
 
 //.hero  {
