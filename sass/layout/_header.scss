@@ -145,11 +145,11 @@
     &.is-open {
       display: block;
     }
-  .social-header-list{
-    display: inline;
-  }  
-
-  .navigation-list-item{
+    .social-link{
+      color: var(--accent-color);
+    }
+ 
+    .navigation-list-item{
      margin-left: 40px;
   }
   

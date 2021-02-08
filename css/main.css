@@ -251,8 +251,8 @@ img {
   .is-open {
     display: block;
   }
-  .social-header-list {
-    display: inline;
+  .social-link {
+    color: var(--accent-color);
   }
   .navigation-list-item {
     margin-left: 40px;
