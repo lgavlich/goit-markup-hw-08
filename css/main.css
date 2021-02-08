@@ -119,6 +119,7 @@ img {
   padding: 0;
   border: none;
   background-color: transparent;
+  z-index: 10;
 }
 
 .menu-button.is-open .icon-menu {
@@ -240,11 +241,18 @@ img {
 
 @media screen and (max-width: 767px) {
   .header-menu {
-    padding-top: 48px;
-    padding-bottom: 48px;
-    width: 480px;
-    height: 796px;
-    position: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 48px 0 48px 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    width: 100%;
+  }
+  .is-open {
+    display: block;
+  }
+  .social-header-list {
+    display: inline;
   }
   .navigation-list-item {
     margin-left: 40px;
