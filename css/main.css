@@ -244,6 +244,7 @@ img {
     padding-bottom: 48px;
     width: 480px;
     height: 796px;
+    position: fixed;
   }
   .navigation-list-item {
     margin-left: 40px;
