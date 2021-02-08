@@ -254,9 +254,6 @@ img {
   .social-link {
     color: var(--accent-color);
   }
-  .navigation-list-item {
-    margin-left: 40px;
-  }
   .navigation-list-item:not(:last-child) {
     margin-bottom: 32px;
   }
@@ -275,6 +272,12 @@ img {
     font-size: 34px;
     line-height: 1.176;
     color: #2196F3;
+  }
+  .header-contact {
+    margin-left: 0;
+  }
+  .icon-address {
+    display: none;
   }
 }
 

@@ -148,10 +148,6 @@
     .social-link{
       color: var(--accent-color);
     }
- 
-    .navigation-list-item{
-     margin-left: 40px;
-  }
   
   .navigation-list-item:not(:last-child) {
     margin-bottom: 32px;
@@ -164,7 +160,8 @@
    font-size: 24px;
    line-height: 1.167;
    color: #757575;
- }
+    }
+
    .header-contacts {
   font-family: Roboto;
   font-style: normal;
@@ -172,6 +169,13 @@
   font-size: 34px;
   line-height: 1.176;
   color: #2196F3;
+   }
+   .header-contact{
+     margin-left: 0;
+   }
+
+   .icon-address {
+     display: none;
    }
 }
 
