@@ -279,17 +279,22 @@ img {
   .social-header-list {
     display: flex;
     align-items: center;
+    padding-top: 54px;
   }
-  .social-title:not(:last-child) {
-    margin-right: 20px;
-  }
-  .socail-link-text {
+  .social-link {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 1.222;
     color: #2196F3;
+  }
+  .line {
+    width: 22px;
+    height: 0px;
+    color: rgba(33, 33, 33, 0.2);
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
@@ -1347,13 +1352,21 @@ img {
   padding-right: 24px;
 }
 
-@media screen and (min-width: 768px) {
-  .container-works-foto:not(:last-child) {
-    margin-bottom: 15px;
+@media screen and (max-width: 767px) {
+  .header-contacts mail {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.167;
+    color: #757575;
   }
 }
 
 @media screen and (min-width: 768px) {
+  .container-works-foto:not(:last-child) {
+    margin-bottom: 15px;
+  }
   .section-button {
     padding-top: 60px;
     padding-bottom: 30px;

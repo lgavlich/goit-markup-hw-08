@@ -98,14 +98,20 @@
   padding-bottom: 20px;
   padding-right: 24px;
 }
-
-@media screen and (min-width: 768px){
-.container-works-foto:not(:last-child) {
+@media screen and (max-width: 767px) {
+  .header-contacts mail {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.167;
+    color: #757575;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container-works-foto:not(:last-child) {
     margin-bottom: 15px;
 }
-}
-
-@media screen and (min-width: 768px) {
   .section-button {
     padding-top: 60px;
     padding-bottom: 30px;
