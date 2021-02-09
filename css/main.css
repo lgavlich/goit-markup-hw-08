@@ -223,17 +223,6 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .header-contacts.mail {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 1.167;
-    color: #757575;
-  }
-}
-
-@media screen and (max-width: 767px) {
   .header-menu {
     position: absolute;
     top: 0;
@@ -249,6 +238,14 @@ img {
     margin-bottom: 32px;
   }
   .header-contact-mail {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.167;
+    color: #757575;
+  }
+  .header-contacts.mail {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
