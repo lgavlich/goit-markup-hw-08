@@ -273,6 +273,9 @@ img {
     display: flex;
     flex-direction: column-reverse;
   }
+  .header-contact-link {
+    padding-bottom: 32px;
+  }
   .icon-address {
     display: none;
   }

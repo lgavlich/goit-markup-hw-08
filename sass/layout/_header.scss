@@ -168,9 +168,12 @@
   color: #2196F3;
    }
    .header-contact{
-    margin-left: 0;
-    display: flex;
-   flex-direction: column-reverse;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column-reverse;
+   }
+   .header-contact-link{
+     padding-bottom: 32px;
    }
 
    .icon-address {
