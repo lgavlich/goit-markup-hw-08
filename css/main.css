@@ -246,9 +246,6 @@ img {
   .is-open {
     display: block;
   }
-  .social-link {
-    color: var(--accent-color);
-  }
   .navigation-list-item:not(:last-child) {
     margin-bottom: 32px;
   }
