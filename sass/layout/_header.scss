@@ -177,6 +177,21 @@
    .icon-address {
      display: none;
    }
+   .social-header-list{
+     display: flex;
+     align-items: center;
+   }
+   .social-title:not(:last-child){
+    margin-right: 20px;
+   }
+   .socail-link{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.222;
+  color: #2196F3;
+   }
 }
 
 
@@ -237,6 +252,9 @@
     line-height: 1.167;
     color: #757575;
   }
+   .social-header-list{
+     display: none;
+   }
 }
 
 .logo {
@@ -276,6 +294,9 @@
   .header-contacts {
     margin-left: 30px;
   }
+  .social-header-list{
+     display: none;
+   }
   
 }
 
